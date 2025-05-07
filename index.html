@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кликер🤮</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Нажмите на кнопку!</h1>
+        <input type="button" id="btn-increment" class="btn green" value="+">
+        <input type="button" id="btn-decrement" class="btn red" value="-">
+        <input type="button" id="btn-reset" class="btn blue" value="C">
+        <br><br>
+        <p id="click-power">Клик = 1</p>
+        <p id="click-count">Кликов: 0</p>
+
+        <div class="shop">
+            <div class="upgrade">
+                <input type="button" id="upgrade-plus-one" class="item" value="+1 Клик">
+                <p class="price">10</p>
+            </div>
+            <div class="upgrade">
+                <input type="button" id="upgrade-plus-ten" class="item" value="+10 Клик">
+                <p class="price">20</p>
+                <p class="price-text">Цены</p>
+            </div>
+            <div class="upgrade">
+                <input type="button" id="upgrade-multiplier" class="item" value="X2">
+                <p class="price">50</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

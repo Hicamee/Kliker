@@ -1,0 +1,120 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#click-count,
+#click-power {
+    font-size: 20px;
+    margin: 10px 0;
+    transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+.btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.green {
+    background-color: #4CAF50;
+}
+
+.red {
+    background-color: #F44336;
+}
+
+.blue {
+    background-color: #3F51B5;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: #FFC107;
+    color: black;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.item:hover,
+.btn:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+.highlight-level-1 {
+    color: #8E44AD;
+    font-size: 26px;
+}
+
+.highlight-level-2 {
+    color: #2E86C1;
+    font-size: 32px;
+}
+
+.shop {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.upgrade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(250, 250, 94);
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.item:hover {
+    transform: scale(0.9);
+}
+
+.price {
+    margin-top: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.price-text {
+    font-size: 20px;
+    color: #3b3b3b;
+    font-weight: 700;
+}
